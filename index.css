@@ -1,27 +1,34 @@
-.encabezado__container {
+.encabezado__container {    
     background: var(--negro);
     width: 100%;
     padding: 40px 0;
 }
 
 .encabezado {
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    height: 60px;
 }
 
 .encabezado__logo--icono {
     max-width: 260px;
 }
 
-.encabezado__navegacion {
+
+.encabezado__navegacion--lista {
     display: flex;
+    color: white;
     gap: 40px;
+    list-style-type: none;
 }
 
-.encabezado__navegacion--elemento {
+
+
+.encabezado__navegacion--elemento a {
+
     color: var(--blanco);
     font-size: 24px;
     font-style: normal;
