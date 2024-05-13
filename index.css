@@ -2,6 +2,7 @@
     background: var(--negro);
     width: 100%;
     padding: 40px 0;
+
 }
 
 .encabezado {
@@ -28,19 +29,27 @@
 
 
 .encabezado__navegacion--elemento a {
-
     color: var(--blanco);
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 0%;
+
 }
+
+
+.banner__img--wrapper{
+    margin: 0;
+}
+
 
 .banner__img {
     max-width: 100%;
+    margin: 0;
 }
 
-.banner__descripcion {
+.banner__img--descripcion {
     max-width: 1200px;
     color: var(--grafito, #222);
     text-align: center;
